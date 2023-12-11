@@ -193,8 +193,6 @@ async def otziv(message: types.Message, state=FSMContext):
     sharif_id = 5172746353
     await bot.send_message(chat_id=sharif_id, text=user_text)
 
-
 if __name__ == '__main__':
     from aiogram import executor
-
     executor.start_polling(dp, skip_updates=True)
