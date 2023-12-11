@@ -196,3 +196,5 @@ async def otziv(message: types.Message, state=FSMContext):
 if __name__ == '__main__':
     from aiogram import executor
     executor.start_polling(dp, skip_updates=True)
+
+# qalesan
